@@ -31,7 +31,7 @@ body {
 
 /* Lecriture et la couleur du font */
 
-h1, h2, h3, h4, h5 {
+ h2, h3, h4, h5 {
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   color: #fff;
 }
