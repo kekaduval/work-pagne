@@ -7,13 +7,11 @@ body {
 h1 {
   text-transform: uppercase;
   text-align: center;
-  /* font-weight: bold; */
-  /* font-style: italic; */
   font-size: 60px;
 }
 
  h1.yellow {
-  color: #FFFFFF;
+  color: #FFDD1B;
   text-shadow: 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px#FFDD1B, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
 
 }
@@ -176,4 +174,31 @@ p {
   line-height: none;
   text-align: center;
   /* line-height: 20px; */
+}
+.bigcontainer{
+  margin-left: 190px;
+}
+
+
+@media screen and (max-width: 540px) {
+  .bigcontainer {
+    width: 100%;
+    margin: 20px;
+  }
+  /* .main-section{
+    max-width: inherit;
+  } */
+
+  /* .sidebar {
+
+    float: left;
+    width: 100%;
+    max-width: inherit;
+  }
+
+  .nav {
+    float: none;
+    clear: left;
+
+  } */
 }

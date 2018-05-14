@@ -1,104 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-/* fade in stuff */
-/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800); */
-
-/* body {padding: 0; margin: 0; background-color: #333; font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: 600; text-transform: uppercase;}
-.container {position: fixed; top: 25%; left: 25%; color:white;} */
-
-/* make keyframes that tell the start state and the end state of our object */
-/* @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } } */
-
-/* .fade-in { */
-  /* opacity:0;  /* make things invisible upon start */ */
-  /* -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */ */
-  /* -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1; */
-
-  /* -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/ */
-  /* -moz-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:1s;
-  -moz-animation-duration:1s;
-  animation-duration:1s;
-} */
-/*
-.fade-in.one {
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
-}
-
-.fade-in.two {
-  -webkit-animation-delay: 1.2s;
-  -moz-animation-delay:1.2s;
-  animation-delay: 1.2s;
-}
-
-.fade-in.three {
-  -webkit-animation-delay: 1.6s;
-  -moz-animation-delay: 1.6s;
-  animation-delay: 1.6s;
-} */
-
-/*---make a basic box ---*/
-/* .box {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  margin: 10px;
-  float: left;
-  text-align:center;
-  line-height:200px;
-  background: #999;
-
-  border: 1px solid #333;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-
-} */
-
-
-
-/* #boxOne:hover ~ #boxTwo,
-#boxOne:hover ~ #boxThree {border: 3px solid orange;}
-
-#boxTwo:hover ~ #boxOne,
-#boxTwo:hover ~ #boxThree {border: 3px solid orange;}
-
-#boxThree:hover + #boxOne,
-#boxThree:hover + #boxTwo {border: 3px solid orange;} */
-/*
-.row {
-  position: inherit;
-} */
-
-
 h1 {
   text-align: center;
   font-size: 60px;
 }
 
-h1.yellow {
-  color: #FFFFFF;
-  font-size: 60px;
-  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 5px #fff, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
+
+ h1.yellow {
+  color: #FFDD1B;
+  text-shadow: 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px#FFDD1B, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
 
 }
 
 .yellow {
     border-radius: 200px;
+    /* padding: 10px 26px 116px 53px; */
+    /* margin: 20vh auto 0; */
     font-family: 'Comfortaa', sans-serif;
-    font-size: 60px;
-    letter-spacing: 5px;
+    font-size: 65px;
+    letter-spacing: 7px;
     /* color: #FFFFFF; */
     line-height: 0.4;
     filter: drop-shadow(0px 0px 5px #FFDD1B);
-    -webkit-text-stroke: 4px #fff;
+    -webkit-text-stroke: 1px #fff;
     display: inline-block;
     position: relative;
     animation: glow 2900ms ease infinite forwards;
@@ -109,7 +33,7 @@ h1.yellow {
 
     }
     50% {
-        filter: drop-shadow(0px 0px 15px #FFDD1B);
+        filter: drop-shadow(0px 0px 10px #FFDD1B);
     }
     100% {
 
@@ -126,7 +50,6 @@ h1.yellow {
   width: 90%;
   margin: auto;
   padding: 0;
-  /* list-style: none; */
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -146,7 +69,6 @@ h1.yellow {
 .image-holder {
   float: left;
   display: inline-block;
-  /* margin: auto; */
 }
 
 .image-holder img {
@@ -155,22 +77,17 @@ h1.yellow {
   width: 280px;
   padding-bottom:  80px;
   padding: 40px;
-  /* margin: 20px; */
-
 }
 
 .text-holder {
   float: right;
   height: 100%;
-  /* padding: 0 0 0 5px; */
   position: relative;
-  /* width: 250px; */
 }
 
 .text-content {
   position: relative;
   top: 10%;
-  /* transform: translateY(-50%); */
 }
 
 .team-name {
@@ -180,7 +97,6 @@ h1.yellow {
 }
 
 .team-job  {
-  /* font-style: italic; */
   color: #fff;
   margin: 12px 0;
   font-size: 15px;
@@ -214,10 +130,8 @@ h1.yellow {
 
 .item {
   position: relative;
-  /* border: 1px solid #333; */
   margin: 2%;
   overflow: hidden;
-  /* width: 540px; */
 }
 .item img {
   max-width: 100%;
@@ -231,11 +145,17 @@ h1.yellow {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
 }
-/* .shadow {
-  height: 20px;
-  width: 200px;
-  background-color: rgba(255,255,255,0);
-  -webkit-box-shadow: 20px 215px 150px 20px rgba(0,0,0,0.54);
-  -moz-box-shadow: 20px 215px 150px 20px rgba(0,0,0,0.54);
-  box-shadow: 20px 215px 175px 30px rgba(0,0,0,0.75);
-} */
+
+
+@media screen and (max-width: 540px) {
+  .team-section {
+    width: 60%;
+    /* margin-top: -20px; */
+/* float: right; */
+  }
+.text-content{
+  width: 10%;
+  float: right;
+  position: absolute;
+}
+}
