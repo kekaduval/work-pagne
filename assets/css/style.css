@@ -511,3 +511,26 @@ border-radius: 10%;
 .button:hover:nth-of-type(10):after {
   width: 0%;
 }
+@media screen and (max-width: 770px) {
+  .imageLogo {
+    width: 100%;
+    margin: 20px;
+  }
+  .animatedgif{
+    width: 100%;
+    margin: 20px;
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+  .imageLogo {
+    width: 100%;
+    margin: 20px;
+  }
+  .animatedgif{
+    width: 100%;
+    margin: 20px;
+  }
+
+}

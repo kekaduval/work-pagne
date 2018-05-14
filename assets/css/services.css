@@ -179,26 +179,18 @@ p {
   margin-left: 190px;
 }
 
+@media screen and (max-width: 770px) {
+  .bigcontainer {
+    width: 100%;
+    margin: 20px;
+  }
 
+
+}
 @media screen and (max-width: 540px) {
   .bigcontainer {
     width: 100%;
     margin: 20px;
   }
-  /* .main-section{
-    max-width: inherit;
-  } */
 
-  /* .sidebar {
-
-    float: left;
-    width: 100%;
-    max-width: inherit;
-  }
-
-  .nav {
-    float: none;
-    clear: left;
-
-  } */
 }
