@@ -5,10 +5,10 @@ $(document).ready(function() {
           // checks if window is scrolled more than 500px, adds/removes solid class
           if($(this).scrollTop() > 550) {
               $('.navbar').addClass('solid');
-              $('.back-to-top').addClass('visible');
+              $('.back-to-top').addClass('hidden');
           } else {
               $('.navbar').removeClass('solid');
-              $('.back-to-top').removeClass('visible');
+              $('.back-to-top').removeClass('hidden');
           }
 
         });

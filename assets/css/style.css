@@ -14,7 +14,6 @@ body {
   height: 100%;
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   background-color:black;
-
   margin-bottom: 60px;
 }
 
@@ -24,7 +23,7 @@ body {
   color: #fff;
 }
 .imageLogo {
-  margin-left: -80px;
+  margin-left: -2;
 }
 
 /*   ecriture de about et services et la couleur*/
@@ -101,10 +100,10 @@ body>.container-fluid {
   background-color: transparent;
   color: #f0f0e6;
 }
-
+/*
 .navbar-default .navbar-toggle {
   border-color: #f0f0e6;
-}
+} */
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: black;
@@ -119,13 +118,6 @@ body>.container-fluid {
   background-color:black;
 }
 
-/* c koi sa? */
-
-.navbar .solid {
-  background-color: #07374a;
-  transition: background-color 1s ease 0s;
-  box-shadow: 0 0 4px rgba(7, 55, 74, 0.2);
-}
 
 .navbar.solid .navbar-brand {
   display: inline-block;
@@ -138,48 +130,14 @@ body>.container-fluid {
   /* transition: color 1s ease 0s; */
 }
 
-/* Easpace entre le navbar et le logo ish */
+/*space between navbar and logo */
 
 .cover {
   padding: 10% 0 10% 0;
 }
 
-
 .cover.bottom {
   padding: 10% 0 10% 0;
-}
-
-/* .headline {
-  padding-top: 6.25em;
-} */
-
-@media screen and (min-width: 768px) {
-  .headline {
-    padding-top: 3.75em;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .headline {
-    padding-top: 1.5625em;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .headline {
-    padding-top: 0px;
-  }
-}
-
-/* Services */
-
-#services {
-  background-color: black;
-  #07374a;
-}
-
-#services h2 {
-  color: #25b79f;
 }
 
 .services, .services-info, .services-tools, .services-last {
@@ -193,98 +151,8 @@ body>.container-fluid {
   font-size: 1.5em;
 }
 
-@media screen and (min-width: 992px) {
-  .services-tools {
-    padding-top: 5.625em;
-  }
-}
-
-.services-tools ul:first-child {
-  padding-left: 0px;
-}
-
-.services-tools ul {
-  color: #25b79f;
-  list-style: none;
-}
-
-.services-tools ul li {
-  padding-top: 0.75em;
-}
-
-.services-last {
-  padding-top: 3.125em;
-  padding-bottom: 0;
-  font-size: 1.125em;
-}
-
-@media screen and (min-width: 992px) {
-  .services-last {
-    padding-top: 0;
-  }
-}
-
-.services-last p {
-  color: #25b79f;
-}
 
 /* team */
-
-#team {
-  background-color: black;
-  /* #25b79f; */
-}
-
-#team h2 {
-  padding-bottom: 1.25em;
-}
-
-@media screen and (min-width: 768px) {
-  .team-projects {
-    margin-top: 0.625em;
-  }
-}
-
-.team-projects--title {
-  margin-top: 0.9375em;
-}
-
-@media screen and (min-width: 768px) {
-  .team-projects--title {
-    margin-top: 20%;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .team-projects--title {
-    margin-top: 5%;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team-projects--desc {
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-}
-
-.team-projects--btn {
-  background: transparent;
-  color: #07374a;
-  border: 1px solid #07374a;
-  border-radius: 5px;
-  margin-bottom: 1.25em;
-}
-
-.team-projects--btn:hover {
-  background: #07374a;
-  color: #f0f0e6;
-}
-
-.team-projects--image {
-  margin-bottom: 1.875em;
-  padding-top: 5%;
-}
 
 .footer {
   bottom: 0;
@@ -292,68 +160,9 @@ body>.container-fluid {
   /* Set the fixed height of the footer here */
   height: 30px;
   background-color: black;
-  color: #f0f0e6;
-}
-
-#scrollIcon, #scrollTopIcon {
-  margin-top: 200px;
-  padding: 10px;
-  font-size: 1.5em;
-  color: #f0f0e6;
-  border: solid 2px #f0f0e6;
-  border-radius: 50%;
-}
-
-#scrollTopIcon {
-  margin-top: 10px;
-  font-size: 1em;
-  color: #f0f0e6;
-  border-color: #f0f0e6;
-}
-
-.back-to-top {
-  display: none;
-}
-
-.back-to-top.visible {
-  display: block;
-}
-
-/* Contact */
-
-#contact {
-  background-color: black;
-  #07374a;
-}
-
-#contact h2  {
-  color: #fff;
-}
-
-.contact-social-icons p {
-  color: #fff;
-}
-
-.contact-social-icons ul a {
-  color: #25b79f;
-  list-style: none;
-}
-
-.contact-social-icons ul a:hover {
-  color: #f0f0e6;
-}
-
-.contact-social-icons ul a li {
-  display: inline-block;
-  padding: 2%;
-}
-
-ul li{
-  color:  #f0f0e6;
-
-
 
 }
+
 /* hover images "meet the team" */
 .image {
   display: block;
