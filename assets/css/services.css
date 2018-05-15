@@ -45,9 +45,7 @@ h1 {
 }
 
 
-/*  content*/
-
-/* Different card  */
+/* cards  */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
@@ -72,7 +70,6 @@ h1 {
 .blog-card.spring-fever {
 background-color: black;
 margin-bottom: 25px;
-  /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/bg-blog-card.jpg) no-repeat; */
 }
 .blog-card .color-overlay {
   /* Rectangle 11: */
@@ -86,11 +83,6 @@ margin-bottom: 25px;
   transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
 }
 .blog-card .gradient-overlay {
-  /* bg-gradient: */
-  /* background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 21%); */
-  /* background-image: -moz-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 21%); */
-  /* background-image: -o-linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 21%); */
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 21%); */
   width: 350px;
   height: 500px;
   /* position: absolute; */
@@ -152,7 +144,6 @@ hr {
 
 .card-info {
   width: 100%;
-  /* position: absolute; */
   bottom: 100px;
   left: 0;
   margin: 0 auto;
@@ -175,6 +166,7 @@ p {
   text-align: center;
   /* line-height: 20px; */
 }
+
 .bigcontainer{
   margin-left: 190px;
 }
@@ -184,7 +176,9 @@ p {
     width: 100%;
     margin: 20px;
   }
-
+.card-info{
+  opacity: 1;
+}
 
 }
 @media screen and (max-width: 540px) {
@@ -192,5 +186,7 @@ p {
     width: 100%;
     margin: 20px;
   }
-
+.card-info{
+  opacity:1;
+}
 }

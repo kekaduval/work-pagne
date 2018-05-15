@@ -2,12 +2,19 @@ h1 {
   text-align: center;
 }
 
-
+ .links a{
+  text-decoration: none;
+color:#fff;
+}
 
  h1.yellow {
   color: #FFDD1B;
   text-shadow: 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px#FFDD1B, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
 
+}
+
+p{
+  font-size: 20px;
 }
 
 .yellow {

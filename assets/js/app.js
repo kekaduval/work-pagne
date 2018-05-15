@@ -12,28 +12,3 @@ $(document).ready(function() {
           }
 
         });
-
-
-        // Scrolling effect for Arrow icons
-        $("#scrollIcon").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#services"), 1000);
-        });
-        $("#nav-services").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#services"), 1000);
-        });
-        $("#nav-team").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#team"), 1000);
-        });
-        $("#nav-contact").click(function(e) {
-            e.preventDefault();
-            $.scrollTo($("#contact"), 1000);
-        });
-        $(".navbar-brand").click(function(e) {
-            e.preventDefault();
-            $.scrollTo(0, 1000);
-        });
-
-      });

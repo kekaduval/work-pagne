@@ -10,20 +10,15 @@ html {
   height: 100%;
 }
 
-/* .foo {
-  width: 150px; } */
-/* la couleur verte qui est plus pale */
 body {
   height: 100%;
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   background-color:black;
-   /* #25b79f; */
-  /* Margin bottom by footer height */
+
   margin-bottom: 60px;
 }
 
 /* Lecriture et la couleur du font */
-
  h2, h3, h4, h5 {
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   color: #fff;
@@ -121,12 +116,12 @@ body>.container-fluid {
 }
 
 .navbar-default .navbar-collapse.collapse.in ul {
-  background-color: #07374a;
+  background-color:black;
 }
 
 /* c koi sa? */
 
-.navbar.solid {
+.navbar .solid {
   background-color: #07374a;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px rgba(7, 55, 74, 0.2);
@@ -139,8 +134,8 @@ body>.container-fluid {
 }
 
 .navbar.solid .navbar-nav>li>a {
-  color: #f0f0e6;
-  transition: color 1s ease 0s;
+  color: black;
+  /* transition: color 1s ease 0s; */
 }
 
 /* Easpace entre le navbar et le logo ish */
@@ -149,12 +144,6 @@ body>.container-fluid {
   padding: 10% 0 10% 0;
 }
 
-/* .cover.top {
-  padding: 15% 0 10% 0;
-  height: 100vh;
-  display: flex;
-  background-color: #25b79f;
-} */
 
 .cover.bottom {
   padding: 10% 0 10% 0;
@@ -391,36 +380,11 @@ ul li{
   position: relative;
   width: 50%;
 }
-/* .bouton{
-  margin-top: 50px;
-  margin-left: 390px;
-
-} */
-
-/* boutton */
-body {
-  /* background: linear-gradient(135deg, #55efcb 0%, #1e5799 0%, #55efcb 0%, #5bcaff 100%); */
-  color: #f7f7f7;
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-}
-
-/* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  width: 60vw;
-  max-width: 1200px;
-  margin: 0 auto;
-  min-height: 100vh;
-} */
 
 .boutton  {
   flex: 1 1 auto;
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   border: 2px solid #f7f7f7;
   text-align: center;
   text-transform: uppercase;
@@ -428,7 +392,7 @@ body {
   overflow: hidden;
   transition: .3s;
 display: inline-block;
-margin-left: 110px;
+margin-left: 190px;
 margin-top: 40px;
 border-radius: 10%;
 }
@@ -511,26 +475,21 @@ border-radius: 10%;
 .button:hover:nth-of-type(10):after {
   width: 0%;
 }
-@media screen and (max-width: 770px) {
-  .imageLogo {
-    width: 100%;
-    margin: 20px;
-  }
-  .animatedgif{
-    width: 100%;
-    margin: 20px;
-  }
 
-}
 
 @media screen and (max-width: 540px) {
   .imageLogo {
-    width: 100%;
+    width: 70%;
     margin: 20px;
   }
   .animatedgif{
     width: 100%;
     margin: 20px;
   }
+.boutton{
+  text-align: center;
+  margin-left: 65px;
+width: 60%;
 
+}
 }
