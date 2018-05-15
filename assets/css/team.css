@@ -1,9 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-
+/* the dream team title */
 h1 {
+  padding: 20px;
   text-align: center;
   font-size: 60px;
+  margin-left: -20px;
 }
+/*  title for e*/
 p.team-job{
    color: #FFf;
    text-shadow:,  0 0 10px #FFf ;

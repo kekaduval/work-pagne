@@ -4,12 +4,14 @@ body {
   background: black;
   font-family: 'Comfortaa', sans-serif;
 }
+/*  basically the title */
 h1 {
   text-transform: uppercase;
   text-align: center;
   font-size: 60px;
 }
 
+/*Neon  Glowww */
  h1.yellow {
   color: #FFDD1B;
   text-shadow: 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px#FFDD1B, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
@@ -43,6 +45,8 @@ h1 {
 
     }
 }
+/* end of Neon colors */
+
 
 
 /* cards  */
@@ -67,21 +71,18 @@ h1 {
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
 .blog-card.spring-fever {
 background-color: black;
 margin-bottom: 25px;
 }
+
 .blog-card .color-overlay {
-  /* Rectangle 11: */
-  /* background: rgba(84, 104, 110, 0.4); */
   width: 350px;
   height: 600px;
-  /* position: absolute; */
-  /* z-index: 10; */
-  /* top: 0; */
-  /* left: 0; */
   transition: background 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
 }
+
 .blog-card .gradient-overlay {
   width: 350px;
   height: 500px;
@@ -90,10 +91,12 @@ margin-bottom: 25px;
   left: 0;
   /* z-index: 15; */
 }
+
 .blog-card:hover .card-info {
   opacity: 1;
   bottom: 1px;
 }
+
 .blog-card:hover .color-overlay {
   background: rgba(84, 104, 110, 0.8);
 }
@@ -112,13 +115,12 @@ h3  {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 2px;
-  /* color: #9CC9E3; */
-  /* font-family: 'Roboto', sans-serif; */
   margin-bottom: 0;
   color: #FFFFFF;
   text-shadow: 0 0 1px #FFDD1B, 0 0 1px #FFDD1B, 0 0 1px#FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 1px #FFDD1B, 0 0 1px #FFDD1B, 0 0 1px #FFDD1B;
 }
 
+/* the yellow line after the title of the service */
 hr {
   width: 50px;
   height: 3px;
