@@ -481,6 +481,7 @@ border-radius: 10%;
   .imageLogo {
     width: 70%;
     margin: 20px;
+    margin-left: 60px;
   }
   .animatedgif{
     width: 100%;
@@ -488,7 +489,7 @@ border-radius: 10%;
   }
 .boutton{
   text-align: center;
-  margin-left: 65px;
+  margin-left: 75px;
 width: 60%;
 
 }
