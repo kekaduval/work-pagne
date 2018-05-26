@@ -70,6 +70,7 @@ p.team-job{
   /* display: flex; */
   -webkit-flex-flow: row wrap;
   justify-content: center;
+   text-align: center;
 }
 
 .team-member {
@@ -90,24 +91,28 @@ p.team-job{
   width: 400px;
   padding-bottom: 80px;
   padding: 80px;
+  /* margin-left: 120px; */
 }
 
 .text-holder {
   /* float: right; */
   height: 100%;
   /* position: relative; */
-  margin-left: 90px;
+  /* margin-left: 120px; */
   margin-top: -20px;
+  text-align: center;
+  text-align: justify;
 }
 
 .text-content {
   position: relative;
   /* top: 10%; */
+  text-align: center;
 }
 
 .team-name {
   font-size: 20px;
-  margin: 12px 0;
+  /* margin: 12px 0; */
   font-style: bold;
 }
 
@@ -187,7 +192,7 @@ p.team-job{
 .text-holder{
 font-size: 10px;
   margin-bottom:-50px;
-  margin-left: 60px
+  margin-left: -15px
 }
 
 
