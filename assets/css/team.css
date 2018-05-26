@@ -67,10 +67,24 @@ p.team-job{
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  /* display: flex; */
+  display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: center;
    text-align: center;
+}
+.team-section1 {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
+   text-align: center;
+   margin-top: -140px;
 }
 
 .team-member {
@@ -81,7 +95,6 @@ p.team-job{
 }
 
 .image-holder {
-  /* float: left; */
   display: inline-block;
 }
 
@@ -91,14 +104,10 @@ p.team-job{
   width: 400px;
   padding-bottom: 80px;
   padding: 80px;
-  /* margin-left: 120px; */
 }
 
 .text-holder {
-  /* float: right; */
   height: 100%;
-  /* position: relative; */
-  /* margin-left: 120px; */
   margin-top: -20px;
   text-align: center;
   text-align: justify;
@@ -106,13 +115,11 @@ p.team-job{
 
 .text-content {
   position: relative;
-  /* top: 10%; */
   text-align: center;
 }
 
 .team-name {
   font-size: 20px;
-  /* margin: 12px 0; */
   font-style: bold;
 }
 
@@ -170,22 +177,27 @@ p.team-job{
   margin-bottom: 220px;
 }
 
-.row1{
-  margin-bottom: -90px;
-}
-
 
 @media screen and (max-width: 540px) {
   .image-holder img{
     width: 100%;
    border-radius: 30%;
-   margin-bottom: -35px;
+   margin-bottom: -25px;
+  }
+  .team-section1{
+    margin-top: -100px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .team-section {
     width: 80%;
+    /* margin-bottom: -20px; */
+
+  }
+  .team-section1 {
+    width: 80%;
+    /* margin-top: -10px; */
 
   }
 
@@ -194,7 +206,6 @@ font-size: 10px;
   margin-bottom:-50px;
   margin-left: -15px
 }
-
 
 .row{
   margin-bottom: 50px;

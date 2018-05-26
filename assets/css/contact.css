@@ -3,10 +3,12 @@ h1 {
 }
 .gif{
   border-radius: 50%;
-  width: 150px;
-  margin-left: 630px;
-
+  width: 15%;
+  margin-left: auto;
   margin-bottom: 30px;
+margin-right: auto;
+display: block;
+height: 200px;
 
 }
  .links a{
@@ -73,17 +75,3 @@ i.yellow {
     position: relative;
     animation: glow 2900ms ease infinite forwards;
 }
-
-
-@media screen and (max-width: 540px) {
-  .gif {
-    margin-left: 130px;
-
-}
-}
-/* @media screen and (min-width: 768px) {
-  .gif {
-    margin-left: 320px;
-
-}
-} */
