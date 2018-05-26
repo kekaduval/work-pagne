@@ -5,13 +5,7 @@ h1 {
   border-radius: 50%;
   width: 150px;
   margin-left: 630px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #FFBB1B;
-  text-shadow: 0 0 5px #FFDD1B, 0 0 5px#FFDD1B, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
-  filter: drop-shadow(0px 0px 5px #FFDD1B);
-  -webkit-text-stroke: 1px #fff;
-  animation: glow 2900ms ease infinite forwards;
+
   margin-bottom: 30px;
 
 }
@@ -87,9 +81,9 @@ i.yellow {
 
 }
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .gif {
     margin-left: 320px;
 
 }
-}
+} */
