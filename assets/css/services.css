@@ -191,20 +191,7 @@ hr {
   /* opacity: 0; */
   transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
 }
-/*
-.card-info2 {
-  width: 100%;
-  bottom: 100px;
-  left: 0;
-  margin: 0 auto;
-  padding: 0 30px;
-  color: #DCE3E7;
-  font-family: 'Droid Serif', serif;
-  font-size: 16px;
-  line-height: 20px;
-  z-index: 20;
-  transition: bottom 0.3s, opacity 0.3s cubic-bezier(0.33, 0.66, 0.66, 1);
-} */
+
 
 p {
   margin-top: 5px;
@@ -214,9 +201,12 @@ p {
   /* line-height: 20px; */
 }
 
-.container{
-  margin-left: 190px;
+@media screen and (min-width: 1668px){
+body{
+  margin-left: 250px;
 }
+}
+
 
 @media screen and (max-width: 768px) {
   .container {

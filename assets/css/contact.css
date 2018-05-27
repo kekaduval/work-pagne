@@ -9,6 +9,7 @@ h1 {
 margin-right: auto;
 display: block;
 height: 200px;
+/* margin-top: -65px; */
 
 }
  .links a{
@@ -28,12 +29,9 @@ p{
 
 .yellow {
     border-radius: 200px;
-    /* padding: 10px 26px 116px 53px; */
-    /* margin: 20vh auto 0; */
     font-family: 'Comfortaa', sans-serif;
     font-size: 65px;
     letter-spacing: 7px;
-    /* color: #FFFFFF; */
     line-height: 0.4;
     filter: drop-shadow(0px 0px 5px #FFDD1B);
     -webkit-text-stroke: 1px #fff;
@@ -74,4 +72,16 @@ i.yellow {
     display: inline-block;
     position: relative;
     animation: glow 2900ms ease infinite forwards;
+}
+
+@media screen and (min-width: 1668px){
+body{
+  margin-left: 250px;
+}
+}
+@media screen and (max-width: 540px) {
+  .gif{
+    width: 25%;
+    height: 100px;
+  }
 }
