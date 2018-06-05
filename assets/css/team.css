@@ -6,6 +6,7 @@ h1 {
   font-size: 60px;
   margin-left: -20px;
 }
+
 /*  title for e*/
 p.team-job{
    color: #FFf;
@@ -21,7 +22,6 @@ p.team-job{
  h1.yellow {
   color: #FFDD1B;
   text-shadow: 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px#FFDD1B, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
-
 }
 
 .yellow {
@@ -53,7 +53,8 @@ p.team-job{
 }
 
 .meet-the-team {
-  margin-bottom: 100px;
+  margin-top: -20%;
+
 }
 
 /* .row1{
@@ -71,6 +72,7 @@ p.team-job{
   -webkit-flex-flow: row wrap;
   justify-content: center;
    text-align: center;
+
 }
 .team-section1 {
   width: 100%;
