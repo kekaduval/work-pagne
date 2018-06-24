@@ -21,7 +21,7 @@
 margin-bottom: 50px;
 }
 body {
-  background-image: "ServicesBG.png";
+  background-image: url("ServicesBG.png");
   font-family: 'Comfortaa', sans-serif;
 }
 /*  basically the title */
