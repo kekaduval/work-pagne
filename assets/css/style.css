@@ -12,7 +12,7 @@ html {
 
 body {
   height: 100%;
-  background-color: #000000;
+  /* background-color: #000000; */
   font-family: "Comfortaa", Helvetica, Arial, sans-serif;
   margin-bottom: 60px;
 }
@@ -81,7 +81,7 @@ body>.container-fluid {
   color: #f0f0e6;
   font-weight: 500;
   font-size: 1em;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   margin: 10px 5px 5px 5px;
   border-radius: 5px;
 }
@@ -164,13 +164,13 @@ body>.container-fluid {
 }
 
 /* hover images "meet the team" */
-.image {
+/* .image {
   display: block;
   width: 100%;
   height: auto;
   margin-top: -50px;
-}
-.overlay {
+} */
+/* .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -181,10 +181,10 @@ body>.container-fluid {
   opacity: 0;
   transition: .5s ease;
   background-color: #008CBA;
-}
-.card:hover .overlay {
+} */
+/* .item:hover .overlay {
   opacity: 1;
-}
+} */
 .card {
   position: relative;
   width: 50%;
