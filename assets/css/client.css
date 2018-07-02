@@ -63,6 +63,61 @@ i.yellow {
     animation: glow 2900ms ease infinite forwards;
 }
 
+img:hover{
+  /* opacity: 0.4; */
+}
+h1:hover{
+  opacity: 1;
+}
 
 
 /* boxes */
+/* Parent Container */
+.content_img{
+ position: relative;
+ width: 25%;
+ height: 25%;
+ /* float: left; */
+ /* margin-right: 10px; */
+ text-align: center;
+ display: inline-block;
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ top: 130px;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.5s linear;
+ text-align: center;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+ /* cursor: pointer; */
+ opacity: 0.5;
+}
+
+.content_img:hover div{
+ width: 367px;
+ visibility: visible;
+ opacity: 1;
+}
+
+/*Responsive  */
+@media screen and (max-width: 540px){
+.content_img{
+ width: 50%;
+ height: 50%;
+ margin-bottom: 10px;
+}
+.content_img:hover div{
+display: none;
+}
+}
