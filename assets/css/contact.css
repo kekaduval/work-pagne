@@ -16,6 +16,11 @@ display: block;
 height: 200px;
 margin-top: -80px;
 }
+
+p{
+  font-size: 20px;
+}
+
  .links a{
   text-decoration: none;
 color:#fff;
@@ -28,9 +33,6 @@ color:#fff;
 }
 
 
-p{
-  font-size: 20px;
-}
 
 .yellow {
     border-radius: 200px;

@@ -3,3 +3,49 @@ body{
   background-attachment: fixed;
 
 }
+h5.yellow {
+ color: #FFDD1B;
+ text-shadow: 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px#FFDD1B, 0 0 10px #FFDD1B, 0 0 10px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B;
+}
+
+.yellow {
+   border-radius: 200px;
+   font-family: 'Comfortaa', sans-serif;
+   font-size: 65px;
+   letter-spacing: 7px;
+   line-height: 0.4;
+   filter: drop-shadow(0px 0px 5px #FFDD1B);
+   -webkit-text-stroke: 1px #fff;
+   display: inline-block;
+   position: relative;
+   animation: glow 2900ms ease infinite forwards;
+}
+h5.yellow {
+   border-radius: 200px;
+   font-family: 'Comfortaa', sans-serif;
+   font-size: 65px;
+   letter-spacing: 7px;
+   line-height: 0.4;
+   filter: drop-shadow(0px 0px 5px #FFDD1B);
+   -webkit-text-stroke: 1px #fff;
+   display: inline-block;
+   position: relative;
+   animation: glow 2900ms ease infinite forwards;
+}
+
+@keyframes glow {
+   0% {
+
+   }
+   50% {
+       filter: drop-shadow(0px 0px 10px #FFDD1B);
+   }
+   100% {
+
+   }
+}
+h5 {
+  color: #FFDD1B;
+  font-size: 20px;
+  text-shadow: 0 0 1px #FFDD1B, 0 0 1px #FFffff, 0 0 1px #FFDD1B, 0 0 1px #FFDD1B, 0 0 1px #FFffff, 0 0 1px #FFDD1B, 0 0 1px #FFffff, 0 0 1px #FFDD1B;
+}
