@@ -92,4 +92,10 @@ body{
     height: 100px;
     margin-top: 1px;
   }
+  h2{
+    font-size: 17px;
+  }
+  p{
+    font-size: 15px;
+  }
 }
