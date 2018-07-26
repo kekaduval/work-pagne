@@ -87,6 +87,7 @@ body{
 }
 }
 @media screen and (max-width: 540px) {
+
   .gif{
     width: 25%;
     height: 100px;
@@ -98,4 +99,7 @@ body{
   p{
     font-size: 15px;
   }
+  /* .boutton {
+    margin-left: -30px;
+  } */
 }
