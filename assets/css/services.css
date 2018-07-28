@@ -47,7 +47,6 @@ h1 {
     }
 }
 /* end of Neon colors */
-
 /* cards  */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
@@ -76,12 +75,12 @@ hr {
   background: #D0BB57;
   color: #FFFFFF;
   text-shadow: 0 0 1px #FFDD1B, 0 0 1px #FFDD1B, 0 0 1px#FFDD1B, 0 0 5px #FFDD1B, 0 0 5px #FFDD1B, 0 0 1px #FFDD1B, 0 0 1px #FFDD1B, 0 0 1px #FFDD1B;
-
-
 }
-.container1{
+
+.container1 {
   margin-right: 10%;
 }
+
 @media screen and (min-width: 1668px){
 body{
   margin-left: 250px;
