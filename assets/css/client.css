@@ -68,6 +68,7 @@ img:hover{
 }
 h1:hover{
   opacity: 1;
+
 }
 
 
@@ -84,11 +85,11 @@ h1:hover{
 }
 
 /* Child Text Container */
-.content_img div{
+.content_img div {
  position: absolute;
- top: 130px;
- background: black;
- color: white;
+ top: 0px;
+ /* background: black; */
+ color: black;
  margin-bottom: 5px;
  font-family: sans-serif;
  opacity: 0;
@@ -101,13 +102,18 @@ h1:hover{
 /* Hover on Parent Container */
 .content_img:hover{
  /* cursor: pointer; */
- opacity: 0.5;
+ opacity: 1;
+
 }
 
 .content_img:hover div{
  width: 367px;
+ height: 368px;
  visibility: visible;
  opacity: 1;
+ background-color: white;
+ vertical-align: middle ;
+
 }
 
 /*Responsive  */

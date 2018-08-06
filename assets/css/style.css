@@ -13,7 +13,7 @@ html {
 body {
   height: 100%;
   /* background-color: #000000; */
-  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+font-family: "montserra", Helvetica, Arial, sans-serif;
   margin-bottom: 60px;
 }
 
@@ -29,7 +29,7 @@ body {
 /*   ecriture de about et services et la couleur*/
 
 p {
-  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #fff;
   font-size: 30px;
 }
@@ -195,8 +195,8 @@ body>.container-fluid {
 
 
 .boutton  {
-  flex: 1 1 auto;
-  margin: 10px;
+  /* flex: 1 1 auto; */
+  /* margin: 10px; */
   padding: 10px;
   /* border: 2px solid #f7f7f7; */
   text-align: center;
@@ -205,9 +205,9 @@ body>.container-fluid {
   overflow: hidden;
   transition: .3s;
 display: inline-block;
-margin-left: 520px;
+margin-left: 120px;
 margin-top: 40px;
-border-radius: 10%;
+/* border-radius: 10%; */
 }
 
 /* .boutton:after {
